@@ -9,6 +9,7 @@
     margin-left : 110px;
     font-size: 24px;
     color: #F9F8FA;
+    font-weight: 900;
 }
 .links {
     color : #e5e7eb;
@@ -60,9 +61,10 @@ button {
     border-radius: 12px;
     border-color:#3882f6 ;
 }
-.sec2 {
-    height : 500px;
+.sec2 , .sec3{
+    height : 450px;
 }
+
 .text-sec2 {
     display : flex;
     align-items : center;
@@ -98,4 +100,65 @@ button {
     font-family: "Roboto";
     margin-top :10px;
     align-items: center;
+}
+.sec3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+   
+}
+#quote {
+    align-self: center;
+    width : 780px;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight : 300;
+}
+#aut {
+    padding-left : 890px;
+    font-family: "Roboto";
+    font-weight: 900;
+}
+
+.footer {
+    height : 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color :#3882f6;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* padding-bottom: 40px; */
+    width: 700px;
+    height :150px;
+}
+.text_foot > div {
+    font-family: 'Roboto'; 
+    padding-left : 120px;
+}
+.container {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color :#3882f6;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width : 350px;
+}
+.container > button {
+    border : 2px solid white;
+    font-family: "Roboto";
+    font-size: 18px;
+    padding-left : 40px;
+    padding-right : 40px;
+    font-weight : 600;
 }
